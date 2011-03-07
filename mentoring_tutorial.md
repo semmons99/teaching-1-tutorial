@@ -1,6 +1,6 @@
 # Mentoring an RMU Session
 
-So, you've volunteered to mentor a session at RMU and Greg has accepted you, congratulations. You have a lot of work ahead of you, and just as when you took the Core Skills course yourself, you're going to get out what you put in.
+So, you've volunteered to mentor a session at RMU and Greg has accepted you, congratulations. You have a lot of work ahead of you, and just as when you took the Core Skills course yourself, you're going to get out what you put in. One thing the mentors coming before you and I would like to stress is to treat the mentees with respect. They are your peers and future fellow alumni. We all remember how difficult and challenging the core course was; make sure you help them, not hinder them.
 
 ## Communication Channels
 
@@ -24,19 +24,25 @@ University-web is coming along, but can be one of the more daunting and difficul
 
 If you haven't work on your code reading much, welcome to boot camp. You are in for three weeks of intense work. Reviewing code will be the most important task you'll have as a mentor. It helps your mentees learn to write better code, and acts as a buffer for Greg, making sure simple design and style problems are mostly weeded out before the students request formal reviews from him.
 
-Here are a few tips to help you through code reviews. First, clone the students repo and poke around. If they have tests, run them. Fire up IRB and play with their classes and modules. Now that you've got an idea of how their code works open up a blank document, read through their code and brain dump. Things to look at are style, method implementations, class/module design and overall project design. Once you've brain dumped, you should reorganize your thoughts into a more coherent package. With things listed in the most important to least important. This is one of the key points Greg has taught me. If you simply brain dump, you're not teaching, your telling. By organizing your thoughts into a logical package you are on the road to teaching.
+Here are a few tips to help you through code reviews. First, clone the students repo and poke around. If they have tests, run them. Fire up IRB and play with their classes and modules. Now that you've got an idea of how their code works open up a blank document, read through their code and brain dump. Things to look at are overall project design, class/module design, method implementations, and style. Once you've brain dumped, you should organize your thoughts into a coherent package. With things listed in the most important to least important. This is one of the key points Greg has taught me. If you simply brain dump, you're not teaching, your telling. By organizing your thoughts into a logical package you are on the road to teaching. Finally, if you're stretched for time, it is much better to provide a deep review on a small portion of a mentees project, than to give them a shallow review of the whole.
 
-### Style
+### Class/Module Design and Overall Project Design
 
-Style might be a matter of taste, but there are common things that every Ruby programmer should be doing if they're code is going to be accepted by the community. Simple things, such as lining up "=", "=>", etc. or indenting two spaces and not using tabs. Essentially, go through the style guide [here](https://github.com/rmu/wiki/wiki/Style-Guide) and point out any problems. It's not usually enough to just point out the style guide, it's much more helpful if you point out some issues first, and how to correct them, before sending a student to the style guide.
+These are just taking another step back from individual methods and looking at entire classes/modules or the entire project. Should the class/module be refactored? Are they following standard project layout? Is everything in a giant file? These are things that should be pointed out. Again, don't just say, "ugh, everything is in one big file." Explain to them how and why a project is typically laid out.
 
 ### Method Implementations
 
 Here is where you should address concerns regarding how a method actually works. Could it be simplified via recursion? Could it be refactored? One of the simplest refactoring is usually extraction. But, don't just say, this method could use some refactoring, or this method is a candidate for extraction. When working with intermediate developers, they might not see it. You need to provide them with an example, or refactor their code for them and present it as a gist. When someone has spent a lot of time working on something, it is often hard for them to step back and see these issues, they need you to pull them out by showing them the forest when they're stuck on the trees.
 
-### Class/Module Design and Overall Project Design
+### Style
 
-These are just taking another step back from individual methods and looking at entire classes/modules or the entire project. Should the class/module be refactored? Are they following standard project layout? Is everything in a giant file? These are things that should be pointed out. Again, don't just say, "ugh, everything is in one big file." Explain to them how and why a project is typically laid out.
+Style might be a matter of taste, but there are common things that every Ruby programmer should be doing if they're code is going to be accepted by the community. Simple things, such as lining up "=", "=>", etc. or indenting two spaces and not using tabs. Essentially, go through the style guide [here](https://github.com/rmu/wiki/wiki/Style-Guide) and point out any problems. It's not usually enough to just point out the style guide, it's much more helpful if you point out some issues first, and how to correct them, before sending a student to the style guide.
+
+## Further Tips
+
+Often students can feel stuck or overwhelmed; perhaps they've bitten off more than they can chew. On the other hand, often students can be found obsessing about a minor part of the project, avoiding the main implementation. Many of us have been in this situation before. If you find a student in this situation, encourage them to reassess their project, narrow the scope, and prioritize individual pieces of code. Sometimes this can go a lot further than doing a code review itself.
+
+Avoid trying to solve the problem for the student, it won't do them any good. And if you're mentoring multiple students, you won't have the time to do it anyway.
 
 ## Closing Thoughts
 
